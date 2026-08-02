@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: demo
+    database: DEMO
+    schema: DEMO_SCHEMA
+    config:
+      enabled: true
+    tables:
+      - name: BIKE  # enabled
+      - name: WEATHER
